@@ -21,13 +21,25 @@
             font-size: 15px;
         }
 
-        button{
+        #input-btn,#savetab-btn{
             padding-block: 8px;
-            padding-inline: 10px;
+            padding-inline: 20px;
             font-size: 18px;
+            font-weight: 600;
             border: 1.5px solid rgba(0, 128, 0, 0.146);
             background-color: green;
             color: white;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+        #delete-btn{
+            padding-block: 8px;
+            padding-inline: 20px;
+            font-size: 18px;
+            font-weight: 600;
+            border: 1.5px solid rgba(0, 128, 0, 0.146);
+            background-color: white;
+            color: green;
             border-radius: 20px;
             cursor: pointer;
         }
@@ -49,8 +61,11 @@
     <button type="button" id="input-btn">
         Save Input
     </button>
+    <button type="button" id="savetab-btn">Save Tab
+    </button>
+    <button type="button" id="delete-btn" >Delete All
+    </button>
     <ul id="leads-list">
-        
     </ul>
     <script src="script.js"></script>
 </body>
